@@ -17,4 +17,11 @@ class SelloRepository:
     def create_sello(data):
         return CatSello.objects.create(**data)
 
+#Metodo para solicitar un registro por su id
+    @staticmethod
+    def get_sello_by_id(pk):
+        try:
+            return CatSello.objects.get(pk=pk)
+        except CatSello.DoesNotExist:
+            return None
 
