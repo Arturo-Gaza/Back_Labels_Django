@@ -1,0 +1,27 @@
+# ░░░ ENTORNOS VIRTUALES ░░░
+env/
+venv/
+.venv/
+
+# ░░░ ARCHIVOS DE PYTHON COMPILADOS ░░░
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ░░░ MIGRACIONES COMPILADAS ░░░
+**/migrations/__pycache__/
+**/migrations/*.pyc
+
+# ░░░ ARCHIVOS DE CONFIGURACIÓN Y LOGS ░░░
+*.env
+.env
+*.log
+*.sqlite3
+
+# ░░░ CONFIGURACIÓN DE EDITORES ░░░
+.vscode/
+.idea/
+
+# ░░░ ARCHIVOS TEMPORALES DE SISTEMA ░░░
+.DS_Store
+Thumbs.db
